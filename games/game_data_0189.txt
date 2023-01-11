@@ -1,0 +1,17 @@
+1: np4PN/pp4PP/8/8/8/8/PP4pp/NP4pn w h1 -> h3
+2: np4P1/pp4PP/7N/8/8/8/PP4pp/NP4pn b h8 -> h6
+3: np4P1/pp4PP/7N/8/8/7n/PP4pp/NP4p1 w h3 -> f3
+4: np4P1/pp4PP/5N2/8/8/7n/PP4pp/NP4p1 b h6 -> f6
+5: np4P1/pp4PP/5N2/8/8/5n2/PP4pp/NP4p1 w a8 -> c8
+6: np4P1/pp4PP/5N2/8/8/5n2/PP4pp/1PN3p1 b a1 -> a3
+7: 1p4P1/pp4PP/n4N2/8/8/5n2/PP4pp/1PN3p1 w c8 -> e8
+8: 1p4P1/pp4PP/n4N2/8/8/5n2/PP4pp/1P2N1p1 b h7 -> h6
+9: 1p4P1/pp4PP/n4N2/8/8/5n1p/PP4p1/1P2N1p1 w e8 -> h8xg8
+10: 1p4P1/pp4PP/n4N2/8/8/5n1p/PP4p1/1P5N b a3 -> c3
+11: 1p4P1/pp4PP/2n2N2/8/8/5n1p/PP4p1/1P5N w h8 -> h5xh6
+12: 1p4P1/pp4PP/2n2N2/8/7N/5n2/PP4p1/1P6 b g7 -> h7
+13: 1p4P1/pp4PP/2n2N2/8/7N/5n2/PP5p/1P6 w h5 -> h8xh7
+14: 1p4P1/pp4PP/2n2N2/8/8/5n2/PP6/1P5N b b1 -> c1
+15: 2p3P1/pp4PP/2n2N2/8/8/5n2/PP6/1P5N w b7 -> b6
+16: 2p3P1/pp4PP/2n2N2/8/8/1P3n2/P7/1P5N b b2 -> c2
+INTERRUPTED

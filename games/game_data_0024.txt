@@ -1,0 +1,2 @@
+0: np4PN/pp4PP/8/8/8/8/PP4pp/NP4pn w h1 -> h3
+INTERRUPTED

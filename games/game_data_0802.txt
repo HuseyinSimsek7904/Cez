@@ -1,0 +1,27 @@
+1: np4PN/pp4PP/8/8/8/8/PP4pp/NP4pn w g2 -> g3
+2: np4PN/pp5P/6P1/8/8/8/PP4pp/NP4pn b b1 -> c1
+3: n1p3PN/pp5P/6P1/8/8/8/PP4pp/NP4pn w g3 -> g4
+4: n1p3PN/pp5P/8/6P1/8/8/PP4pp/NP4pn b g7 -> g6
+5: n1p3PN/pp5P/8/6P1/8/6p1/PP5p/NP4pn w g4 -> f4
+6: n1p3PN/pp5P/8/5P2/8/6p1/PP5p/NP4pn b g6 -> f6
+7: n1p3PN/pp5P/8/5P2/8/5p2/PP5p/NP4pn w f4 -> e4
+8: n1p3PN/pp5P/8/4P3/8/5p2/PP5p/NP4pn b f6 -> e6
+9: n1p3PN/pp5P/8/4P3/8/4p3/PP5p/NP4pn w e4 -> e5
+10: n1p3PN/pp5P/8/8/4P3/4p3/PP5p/NP4pn b e6 -> e4xe5
+11: n1p3PN/pp5P/8/4p3/8/8/PP5p/NP4pn w h1 -> h3
+12: n1p3P1/pp5P/7N/4p3/8/8/PP5p/NP4pn b g8 -> g7
+13: n1p3P1/pp5P/7N/4p3/8/8/PP4pp/NP5n w h3 -> f3
+14: n1p3P1/pp5P/5N2/4p3/8/8/PP4pp/NP5n b h7 -> h6
+15: n1p3P1/pp5P/5N2/4p3/8/7p/PP4p1/NP5n w f3 -> f5
+16: n1p3P1/pp5P/8/4p3/5N2/7p/PP4p1/NP5n b h6 -> h5
+17: n1p3P1/pp5P/8/4p3/5N1p/8/PP4p1/NP5n w h2 -> h3
+18: n1p3P1/pp6/7P/4p3/5N1p/8/PP4p1/NP5n b h5 -> h4
+19: n1p3P1/pp6/7P/4p2p/5N2/8/PP4p1/NP5n w h3 -> h5xh4
+20: n1p3P1/pp6/8/4p3/5N1P/8/PP4p1/NP5n b h8 -> h6
+21: n1p3P1/pp6/8/4p3/5N1P/7n/PP4p1/NP6 w h5 -> h7xh6
+22: n1p3P1/pp6/8/4p3/5N2/8/PP4pP/NP6 b g7 -> f7
+23: n1p3P1/pp6/8/4p3/5N2/8/PP3p1P/NP6 w f5 -> f8xf7
+24: n1p3P1/pp6/8/4p3/8/8/PP5P/NP3N2 b b2 -> b3
+25: n1p3P1/p7/1p6/4p3/8/8/PP5P/NP3N2 w f8 -> f6
+26: n1p3P1/p7/1p6/4p3/8/5N2/PP5P/NP6 b e4 -> f4
+INTERRUPTED

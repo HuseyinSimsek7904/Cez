@@ -1,0 +1,21 @@
+1: np4PN/pp4PP/8/8/8/8/PP4pp/NP4pn w a8 -> c8
+2: np4PN/pp4PP/8/8/8/8/PP4pp/1PN3pn b a1 -> c1
+3: 1pn3PN/pp4PP/8/8/8/8/PP4pp/1PN3pn w h1 -> h3
+4: 1pn3P1/pp4PP/7N/8/8/8/PP4pp/1PN3pn b c1 -> c3
+5: 1p4P1/pp4PP/2n4N/8/8/8/PP4pp/1PN3pn w h3 -> f3
+6: 1p4P1/pp4PP/2n2N2/8/8/8/PP4pp/1PN3pn b h8 -> h6
+7: 1p4P1/pp4PP/2n2N2/8/8/7n/PP4pp/1PN3p1 w c8 -> c6
+8: 1p4P1/pp4PP/2n2N2/8/8/2N4n/PP4pp/1P4p1 b h6 -> f6
+9: 1p4P1/pp4PP/2n2N2/8/8/2N2n2/PP4pp/1P4p1 w g1 -> f1
+10: 1p3P2/pp4PP/2n2N2/8/8/2N2n2/PP4pp/1P4p1 b b1 -> c1
+11: 2p2P2/pp4PP/2n2N2/8/8/2N2n2/PP4pp/1P4p1 w b8 -> c8
+12: 2p2P2/pp4PP/2n2N2/8/8/2N2n2/PP4pp/2P3p1 b a2 -> a3
+13: 2p2P2/1p4PP/p1n2N2/8/8/2N2n2/PP4pp/2P3p1 w h2 -> h3
+14: 2p2P2/1p4P1/p1n2N1P/8/8/2N2n2/PP4pp/2P3p1 b g8 -> f8
+15: 2p2P2/1p4P1/p1n2N1P/8/8/2N2n2/PP4pp/2P2p2 w b7 -> b6
+16: 2p2P2/1p4P1/p1n2N1P/8/8/1PN2n2/P5pp/2P2p2 b a3 -> a4
+17: 2p2P2/1p4P1/2n2N1P/p7/8/1PN2n2/P5pp/2P2p2 w a7 -> b7
+18: 2p2P2/1p4P1/2n2N1P/p7/8/1PN2n2/1P4pp/2P2p2 b h7 -> h6
+19: 2p2P2/1p4P1/2n2N1P/p7/8/1PN2n1p/1P4p1/2P2p2 w c6 -> a6
+20: 2p2P2/1p4P1/2n2N1P/p7/8/NP3n1p/1P4p1/2P2p2 b g7 -> g6
+Stalemate
