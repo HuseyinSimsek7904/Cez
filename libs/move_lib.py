@@ -17,11 +17,16 @@ class Move:
 
     @property
     def name(self):
+        if self.to.column == self.from_.column:
+            name = str(self.to.row + 1)
+        else:
+            name = "abcdefgh"[self.to.column]
+
         if self.capture is None:
-            return f"{self.from_} -> {self.to}"
+            return f"{self.from_}>{name}"
 
         else:
-            return f"{self.from_} -> {self.to}x{self.capture}"
+            return f"{self.from_}x{name}"
 
     def __repr__(self):
         return self.name
