@@ -12,6 +12,9 @@ class Position:
     def __add__(self, other):
         return Position(self.column + other.column, self.row + other.row)
 
+    def __sub__(self, other):
+        return Position(self.column - other.column, self.row - other.row)
+
     def __mul__(self, other):
         return Position(self.column * other, self.row * other)
 

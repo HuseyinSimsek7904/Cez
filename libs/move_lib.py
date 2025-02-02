@@ -41,21 +41,46 @@ class Move:
 
 
 def from_text(move):
-    match = re.match("^([a-h][1-8]) -> ([a-h][1-8])$", move)
+    match_ = re.match("^([a-h][1-8])([>x])([a-h1-8])$", move)
 
-    if match:
-        from_, to = match.groups()
-        from_, to = position_lib.from_text(from_), position_lib.from_text(to)
-        return Move(from_, to, None)
+    if not match_:
+        raise ValueError(f"Invalid syntax '{move}'")
 
-    match = re.match("^([a-h][1-8]) -> ([a-h][1-8])x([a-h][1-8])$", move)
+    from_, capture, to = match_.groups()
+    from_ = position_lib.from_text(from_)
 
-    if match:
-        from_, to, capture = match.groups()
-        from_, to, capture = position_lib.from_text(from_), position_lib.from_text(to), position_lib.from_text(capture)
-        return Move(from_, to, capture)
+    try:
+        to = position_lib.Position(from_.column, int(to) - 1)
 
-    raise ValueError("Invalid syntax")
+    except ValueError:
+        to = position_lib.Position("abcdefgh".index(to), from_.row)
+
+    move = Move(from_, to, None)
+    if capture == 'x':
+        dif = move.delta
+
+        if dif.column == 2:
+            move.capture = position_lib.Position(from_.column + 1, from_.row)
+        elif dif.column == 3:
+            move.capture = position_lib.Position(from_.column + 2, from_.row)
+        elif dif.column == -2:
+            move.capture = position_lib.Position(from_.column - 1, from_.row)
+        elif dif.column == -3:
+            move.capture = position_lib.Position(from_.column - 2, from_.row)
+
+        elif dif.row == 2:
+            move.capture = position_lib.Position(from_.column, from_.row + 1)
+        elif dif.row == 3:
+            move.capture = position_lib.Position(from_.column, from_.row + 2)
+        elif dif.row == -2:
+            move.capture = position_lib.Position(from_.column, from_.row - 1)
+        elif dif.row == -3:
+            move.capture = position_lib.Position(from_.column, from_.row - 2)
+
+        else:
+            raise ValueError("shit")
+
+    return move
 
 
 def moves_from_text(moves: str):

@@ -1,0 +1,7 @@
+1: np4PN/pp4PP/8/8/8/8/PP4pp/NP4pn w g2>3
+2: np4PN/pp5P/6P1/8/8/8/PP4pp/NP4pn b a8>6
+3: np4PN/pp5P/6P1/8/8/N7/PP4pp/1P4pn w g3>f
+4: np4PN/pp5P/5P2/8/8/N7/PP4pp/1P4pn b b2>3
+5: np4PN/p6P/1p3P2/8/8/N7/PP4pp/1P4pn w a6>c
+6: np4PN/p6P/1p3P2/8/8/2N5/PP4pp/1P4pn b b7>6
+INTERRUPTED
